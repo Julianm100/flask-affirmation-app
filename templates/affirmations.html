@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>All Affirmations</h2>
+<ul>
+    {% for a in affirmations %}
+        <li>{{ a }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
